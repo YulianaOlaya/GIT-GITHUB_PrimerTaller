@@ -1,3 +1,5 @@
+alert("Welcome to the number guessing game ");
+
 let guess = Math.floor(Math.random() * 10) + 1;
 let attempt = 0;
 
