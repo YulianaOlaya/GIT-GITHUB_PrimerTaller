@@ -17,8 +17,9 @@ while (attempt !== guess) {
     let difference = Math.abs(guess - attempt);
 
     if (attempt === guess) {
-        alert("You guessed it in " + totalAttempts + " attempts");
-    } 
+    alert("You guessed it in " + totalAttempts + " attempts");
+    alert("Great job You are amazing at this game");
+    }
     else if (difference <= 2) {
         alert("Hot");
     } 
