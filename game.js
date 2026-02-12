@@ -1,16 +1,16 @@
 alert("Welcome to the number guessing game ");
 
-let guess = Math.floor(Math.random() * 10) + 1;
+let guess = Math.floor(Math.random() * 20) + 1;
 let attempt = 0;
 let totalAttempts = 0;
 
 while (attempt !== guess) {
 
-    attempt = parseInt(prompt("Guess the number from 1 to 10"));
+    attempt = parseInt(prompt("Guess the number from 1 to 20"));
     totalAttempts++;
 
-    if (isNaN(attempt) || attempt < 1 || attempt > 10) {
-        alert("Enter a valid number between 1 and 10");
+    if (isNaN(attempt) || attempt < 1 || attempt > 20) {
+        alert("Enter a valid number between 1 and 20");
         continue;
     }
 
